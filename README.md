@@ -1,5 +1,5 @@
 # aem-runner-bash
-Bash Script to startup development environment on a mac, when running it:
+Bash Script to startup development environment for AEM on a mac, when running it:
 * Runs AEM from the command line in debug mode.
 * Kills all .jar processes (IntelliJ, other AEM instances).
 * Opens IntelliJ for the current project.
