@@ -28,7 +28,8 @@ declare load_files=(~/personal/aem-runner-bash/aem-project-loader.bash)
 * Grab a coffee, 3 minutes later it'll be running and ready for work!
 
 ## TODO
-* generate project config files.
+* Improve handling of variables, ie if AEM file not found, throw error and halt process.
+* Generate project config files.
 * Improve 'kill all jars' function.
 * Other TODOS in the code.
 * Create new project functionality.
