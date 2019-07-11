@@ -1,5 +1,9 @@
 #!/bin/bash
-source ./personal/setup/aem-runner-bash/aem-project-loader-util.bash
+
+# Import the util file
+DIR="${BASH_SOURCE%/*}"
+if [[ ! -d "$DIR" ]]; then DIR="$PWD"; fi
+. "$DIR/aem-project-loader-util.bash"
 
 setup-hsbc(){
   projectName="HSBC"
