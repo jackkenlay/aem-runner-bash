@@ -8,6 +8,9 @@ Bash Script to startup development environment for AEM on a mac, when running it
 * Runs aemsync (for immediate front end updates)
 * opens a spare terminal for git and mvn clean install.
 
+This can be useful if you dislike manually opening AEM each morning, opening up log files etc..
+It's very useful if you're working on multiple AEM projects at the same time, since you can easily close everything down and reopen the other project with a fresh environment
+
 ## Installation
 * Pull this repo.
 * Reference it in your ./.bash_profile file:
