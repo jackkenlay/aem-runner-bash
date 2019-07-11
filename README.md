@@ -12,6 +12,8 @@ This can be useful if you dislike manually opening AEM each morning, opening up 
 
 It's very useful if you're working on multiple AEM projects at the same time, since you can easily close everything down and reopen the other project with a fresh environment.
 
+Feel free to remove functions such as wait-and-bring-terminals-to-front (it's not pretty but I like having terminals in the front whilst it's setting up so I look busy/cool to any passers by).
+
 ## Installation
 * Pull this repo.
 * Reference it in ./.bash_profile by appending the following line to it:
