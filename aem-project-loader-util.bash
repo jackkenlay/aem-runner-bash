@@ -1,6 +1,8 @@
 #!/bin/bash
 
 kill-jars() {
+  # TODO
+  # Make more friendlier...
   echo "Killing all Java Processes"
   killall -9 java
 }
