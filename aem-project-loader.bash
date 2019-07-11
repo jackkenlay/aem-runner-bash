@@ -5,17 +5,21 @@ DIR="${BASH_SOURCE%/*}"
 if [[ ! -d "$DIR" ]]; then DIR="$PWD"; fi
 . "$DIR/aem-project-loader-util.bash"
 
-setup-hsbc(){
-  projectName="HSBC"
+
+# Loading Project Functions
+
+setup-adobe(){
+  projectName="Adobe"
 
   # AEM
-  aemDir="AEM/hsbc-6.4"
+  aemDir="AEM/adobe-6.4"
   aemJarName="cq-quickstart-6.4.0.jar"
-  logFileName="crx-quickstart/logs/project-hsbc-forms.log"
+  # (relative to AEM dir)
+  logFileName="crx-quickstart/logs/error.log"
 
   # Repo/Mvn
-  repoDir="work/hsbc-forms"
-  mvnCleanInstallDir="work/hsbc-forms"
+  repoDir="work/adobe"
+  mvnCleanInstallDir="work/adobe"
 
   setup-aem-project $aemDir $repoDir $aemJarName $mvnCleanInstallDir $logFileName $projectName
 }
