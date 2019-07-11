@@ -14,7 +14,7 @@ It's very useful if you're working on multiple AEM projects at the same time, si
 
 ## Installation
 * Pull this repo.
-* Reference it in ./.bash_profile:
+* Reference it in ./.bash_profile by appending the following line to it:
 ```
 declare load_files=(~/personal/aem-runner-bash/aem-project-loader.bash)
 ```
