@@ -1,11 +1,6 @@
 #!/bin/bash
 source ./personal/setup/aem-runner-bash/aem-project-loader-util.bash
 
-# move all aem bash into 1 folder
-# create readme and repo.
-# generic config files, so this can be shared
-# make repo public
-
 setup-hsbc(){
   projectName="HSBC"
 
